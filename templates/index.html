@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+
+    <h1>Breast Cancer Predictions </h1>
+        <form action="{{ url_for("gfg")}}" method="post">
+<label for="radius_mean">radius_mean:</label>
+<input type="text" id="radius_mean" name="radius_mean" placeholder="radius_mean">
+
+<label for="texture_mean"> texture_mean:</label>
+<input type="text" id="texture_mean" name="texture_mean" placeholder="texture_mean">
+
+    <label for="smoothness_mean"> smoothness_mean:</label>
+<input type="text" id="smoothness_mean" name="smoothness_mean" placeholder="smoothness_mean">
+
+
+      <label for="compactness_mean"> compactness_mean:</label>
+<input type="text" id="compactness_mean" name="compactness_mean" placeholder="compactness_mean">
+
+  <label for="symmetry_mean"> symmetry_mean:</label>
+<input type="text" id="symmetry_mean" name="symmetry_mean" placeholder="symmetry_mean">
+
+    <label for="fractal_dimension_mean"> fractal_dimension_mean:</label>
+<input type="text" id="fractal_dimension_mean" name="fractal_dimension_mean" placeholder="fractal_dimension_mean">
+
+    <label for="radius_se"> radius_se:</label>
+<input type="text" id="radius_se" name="radius_se" placeholder="radius_se">
+
+    <label for="texture_se"> texture_se:</label>
+<input type="text" id="texture_se" name="texture_se" placeholder="texture_se">
+
+    <label for="smoothness_se"> smoothness_se:</label>
+<input type="text" id="smoothness_se" name="smoothness_se" placeholder="smoothness_se">
+
+    <label for="compactness_se"> compactness_se:</label>
+<input type="text" id="compactness_se" name="compactness_se" placeholder="compactness_se">
+
+    <label for="symmetry_se"> symmetry_se:</label>
+<input type="text" id="symmetry_se" name="symmetry_se" placeholder="symmetry_se">
+
+    <label for="fractal_dimension_se"> fractal_dimension_se:</label>
+<input type="text" id="fractal_dimension_se" name="fractal_dimension_se" placeholder="fractal_dimension_se">
+
+<button type="submit">Predict</button>
+</body>
+</html>
+
